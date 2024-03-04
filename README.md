@@ -17,8 +17,11 @@
 - Adds pads for the relocation of capacitors (C5, C189, C200) typically removed on more aggressive trims
 - Pad for an optional thermistor, for compatibility with [4Layer Technologies RVL-PMS](https://4layertech.com/collections/modular-line/products/rvl-pms-2)
 - Fits entirely within the outline of an Omega trim
+- Fits under heatplates/heatsinks
 
-## Disclaimer
+## Notes
+
+### Connector current capacity
 
 The connector currently used on this board is the [5-pin, 1.5mm pitch Molex Pico-Lock](https://www.molex.com/en-us/products/part-detail/5040500591) connector. This connector accepts a maximum wire gauge of 24AWG which **may not be a beefy enough connector or wire gauge for Wii builds**. The main area of potential concern is the ground / return path, which uses a single contact/wire.
 
@@ -27,6 +30,10 @@ For Short Stack I am cheating - I am using aluminum spacers between the Short St
 In a future revision I would likely swap out this connector for either:
 - [6-pin, 1.5mm pitch Molex Pico-Lock](https://www.molex.com/en-us/products/part-detail/5040500691) - doubling up on the ground wires
 - [Pico-EZMate HC, 1.8 pitch](https://www.molex.com/en-us/products/connectors/wire-to-board-connectors/pico-ezmate-connectors) - very low profile, higher current connector
+
+### C189 height
+
+Some motherboard revisions have a very tall (~2.9mm) C189 capacitor, which can interfere with heatplates. If you have one of these boards, you may wish to consider purchasing a lower profile capacitor. As long as it is a 220uF, 6.3V+, 2917 or 2312 SMD package capacitor it should work fine. The Kyocera AVX NOJC227M006RWJ is a low profile version of the original cap used on the Wii.
 
 ## How to order
 
