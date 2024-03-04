@@ -42,7 +42,6 @@ fp-info-cache
 *.html
 *.net
 *.pdf
-*.svg
 *.xml
 *.cmp
 *.dxf
