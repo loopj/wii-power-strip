@@ -49,3 +49,7 @@ In a future revision I would likely swap out this connector for either:
     - 1V8 pad solders to the via array at the top left. You may wish to scratch away some solder mask to have more copper to solder to
     - 3V3 pad solders to the top of C128
 - Use plenty of solder and flux!
+
+## License
+
+Permissively released under the Solderpad Hardware License v2.1
