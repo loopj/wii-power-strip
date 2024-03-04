@@ -30,6 +30,7 @@ In a future revision I would likely swap out this connector for either:
 
 ## How to order
 
+- Grab the Gerber files for the [latest release](https://github.com/loopj/wii-power-strip/releases/latest)
 - Order a 2-layer, 0.6mm PCB from JLCPCB or similar fab
 - Purchase a Molex 504050-0591 connector from [DigiKey](https://www.digikey.com/en/products/detail/molex/5040500591/9352715), [Mouser](https://www.mouser.com/ProductDetail/Molex/504050-0591?qs=OAhjpuo3Vu7FoUIT4KH7/g%3D%3D), or your favorite component store
 - Don't forget to purchase either pre-assembled cables, or parts to crimp your own
