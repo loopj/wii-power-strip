@@ -35,7 +35,7 @@ In a future revision I would likely swap out this connector for either:
 
 ### C189 height
 
-Some motherboard revisions have a very tall (~2.9mm) C189 capacitor, which can interfere with heatplates. If you have one of these boards, you may wish to consider purchasing a lower profile capacitor. As long as it is a 220uF, 6.3V+, 2917 or 2312 SMD package capacitor it should work fine. The Kyocera AVX NOJC227M006RWJ is a low profile version of the original cap used on the Wii. The TAJX227K006RNJ or TAJY227K006RNJ should also both work.
+Some motherboard revisions have a very tall (~2.9mm) C189 capacitor, which can interfere with heatplates. If you have one of these boards, you may wish to consider purchasing a lower profile capacitor. As long as it is a 220uF, 6.3V+, 2917 or 2312 SMD package capacitor it should work fine. The Kyocera AVX NOJY227M006RWJ is a low profile version of the original cap used on the Wii. The TAJX227K006RNJ or TAJY227K006RNJ should also both work.
 
 ## How to order
 
