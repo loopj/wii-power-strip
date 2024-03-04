@@ -23,9 +23,11 @@
 
 ### Connector current capacity
 
-The connector currently used on this board is the [5-pin, 1.5mm pitch Molex Pico-Lock](https://www.molex.com/en-us/products/part-detail/5040500591) connector. This connector accepts a maximum wire gauge of 24AWG which **may not be a beefy enough connector or wire gauge for Wii builds**. The main area of potential concern is the ground / return path, which uses a single contact/wire.
+The connector currently used on this board is the [5-pin, 1.5mm pitch Molex Pico-Lock](https://www.molex.com/en-us/products/part-detail/5040500591) connector. This connector accepts a maximum wire gauge of 24AWG which **may not be a beefy enough wire gauge for all Wii builds**. The main area of potential concern is the ground return path, which uses a single wire.
 
-For Short Stack I am cheating - I am using aluminum spacers between the Short Stack main PCB and the Wii motherboard which provide an additional ground return path through the plated mounting holes. In my testing, this connector has shown to be sufficient and stable, even when using non-conductive spacers however it definitely requires further testing.
+For Short Stack I am cheating - I am using aluminum spacers between the Short Stack main PCB and the Wii motherboard which provide an additional ground return path through the plated mounting holes.
+
+Having said this, in my testing this connector has shown to be sufficient and stable, even when using non-conductive spacers.
 
 In a future revision I would likely swap out this connector for either:
 - [6-pin, 1.5mm pitch Molex Pico-Lock](https://www.molex.com/en-us/products/part-detail/5040500691) - doubling up on the ground wires
