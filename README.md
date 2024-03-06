@@ -19,30 +19,16 @@
 - Fits entirely within the outline of an Omega trim
 - Fits under heatplates/heatsinks
 
-## Notes
-
-### Connector current capacity
-
-The connector currently used on this board is the [5-pin, 1.5mm pitch Molex Pico-Lock](https://www.molex.com/en-us/products/part-detail/5040500591) connector. This connector accepts a maximum wire gauge of 24AWG which **may not be a beefy enough wire gauge for all Wii builds**. The main area of potential concern is the ground return path, which uses a single wire.
-
-For Short Stack I am cheating - I am using aluminum spacers between the Short Stack main PCB and the Wii motherboard which provide an additional ground return path through the plated mounting holes.
-
-Having said this, in my testing this connector has shown to be sufficient and stable, even when using non-conductive spacers.
-
-In a future revision I would likely swap out this connector for either:
-- [6-pin, 1.5mm pitch Molex Pico-Lock](https://www.molex.com/en-us/products/part-detail/5040500691) - doubling up on the ground wires
-- [Pico-EZMate HC, 1.8 pitch](https://www.molex.com/en-us/products/connectors/wire-to-board-connectors/pico-ezmate-connectors) - very low profile, higher current connector
-
-### C189 height
-
-Some motherboard revisions have a very tall (~2.9mm) C189 capacitor, which can interfere with heatplates. If you have one of these boards, you may wish to consider purchasing a lower profile capacitor. As long as it is a 220uF, 6.3V+, 2917 or 2312 SMD package capacitor it should work fine. The Kyocera AVX NOJY227M006RWJ is a low profile version of the original cap used on the Wii. The TAJX227K006RNJ or TAJY227K006RNJ should also both work.
-
-## How to order
+## Parts / Ordering
 
 - Grab the Gerber files for the [latest release](https://github.com/loopj/wii-power-strip/releases/latest)
 - Order a 2-layer, 0.6mm PCB from JLCPCB or similar fab
-- Purchase a Molex 504050-0591 connector from [DigiKey](https://www.digikey.com/en/products/detail/molex/5040500591/9352715), [Mouser](https://www.mouser.com/ProductDetail/Molex/504050-0591?qs=OAhjpuo3Vu7FoUIT4KH7/g%3D%3D), or your favorite component store
-- Don't forget to purchase either pre-assembled cables, or parts to crimp your own
+- Purchase a 6-pin Molex Pico-Lock connector, PN 504050-0691 ([DigiKey](https://www.digikey.com/en/products/detail/molex/5040500691/4357148), [Mouser](https://www.mouser.com/ProductDetail/Molex/504050-0691?qs=bvCPb%252BE7ys2K1LQC9e%2FvRg%3D%3D))
+- Purchase either a pre-assembled cable, or parts to crimp your own
+  - 50mm pre-assembled cable, PN 15132-0600 ([DigiKey](https://www.digikey.com/en/products/detail/molex/0151320600/7423256), [Mouser](https://www.mouser.com/ProductDetail/Molex/15132-0600?qs=HXFqYaX1Q2wQ%2F2lUgfK5Kw%3D%3D))
+  - 100mm pre-assembled cable, PN 15132-0601 ([DigiKey](https://www.digikey.com/en/products/detail/molex/0151320601/7423257), [Mouser](https://www.mouser.com/ProductDetail/Molex/15132-0601?qs=HXFqYaX1Q2xvCBLpk4R9sg%3D%3D))
+  - Connector, PN 504051-0601 ([DigiKey](https://www.digikey.com/en/products/detail/molex/5040510601/4357150), [Mouser](https://www.mouser.com/ProductDetail/Molex/504051-0601?qs=bvCPb%252BE7ys2KoBFgs2%2FzNw%3D%3D))
+  - Crimp terminals, PN 504052-0098 ([DigiKey](https://www.digikey.com/en/products/detail/molex/5040520098/4357152), [Mouser](https://www.mouser.com/ProductDetail/Molex/504052-0098-Cut-Strip?qs=lzT3SgJKZn3tXLBIQ9V4FQ%3D%3D))
 - Optional - 10KΩ thermistor with a 3380K B value, in an 0603 SMD package
 
 ## Installation
@@ -52,12 +38,16 @@ Some motherboard revisions have a very tall (~2.9mm) C189 capacitor, which can i
 - Solder the connector and any rescued capacitors to the board by hand or using a hot plate
 - Place board on the Wii motherboard, it should self-align
 - Solder the pads on the edge of the board to the Wii motherboard
-    - GND pad solders to the bottom of C180
-    - 1V0 pad solders to the top of C143
-    - 1V15 pad solders to the left of C17
-    - 1V8 pad solders to the via array at the top left. You may wish to scratch away some solder mask to have more copper to solder to
-    - 3V3 pad solders to the top of C128
+    - 1V0 to the top of C143
+    - 1V15 to the left of C17
+    - 1V8 to the via array at the top left. You may wish to scratch away some solder mask to have more copper to solder to.
+    - 3V3 to the top of C128
+    - GND to the bottom of C180 and C143
 - Use plenty of solder and flux!
+
+## C189 height
+
+Some motherboard revisions have a very tall (~2.9mm) C189 capacitor, which can interfere with heatplates if you are relocating it. If you have one of these boards, you may wish to consider purchasing a lower profile capacitor. As long as it is a 220uF, 6.3V+, 2917 or 2312 SMD package capacitor it should work fine. The Kyocera AVX NOJY227M006RWJ is a low profile version of the original cap used on the Wii. The TAJX227K006RNJ or TAJY227K006RNJ should also both work.
 
 ## License
 
