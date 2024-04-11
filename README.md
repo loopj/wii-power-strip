@@ -38,11 +38,11 @@
 - Solder the connector and any rescued capacitors to the board by hand or using a hot plate
 - Place board on the Wii motherboard, it should self-align
 - Solder the pads on the edge of the board to the Wii motherboard
-    - 1V0 to the top of C143
-    - 1V15 to the left of C17
-    - 1V8 to the via array at the top left. You may wish to scratch away some solder mask to have more copper to solder to.
-    - 3V3 to the top of C128
-    - GND to the bottom of C180 and C143
+  - 1V0 to the top of C143
+  - 1V15 to the left of C17
+  - 1V8 to the via array at the top left. You may wish to scratch away some solder mask to have more copper to solder to.
+  - 3V3 to the top of C128
+  - GND to the bottom of C180 and C143
 - Use plenty of solder and flux!
 
 ## C189 height

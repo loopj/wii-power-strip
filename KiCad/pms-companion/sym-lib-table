@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "4LAYER_SYMBOLS")(type "KiCad")(uri "${KIPRJMOD}/project-symbols/4LAYER_SYMBOLS.kicad_sym")(options "")(descr ""))
+)

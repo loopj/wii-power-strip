@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "1v15")(type "KiCad")(uri "${KIPRJMOD}/project-symbols/1v15.kicad_sym")(options "")(descr ""))
+)
