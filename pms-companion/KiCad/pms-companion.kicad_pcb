@@ -160472,7 +160472,7 @@
 			(pintype "input")
 			(uuid "f2d17cc1-b7d8-4eb5-8773-42e014fb6c13")
 		)
-		(model "${KIPRJMOD}/lib/4LAYER_FOOTPRINTS.pretty/PMS2.STEP"
+		(model "${KIPRJMOD}/project-footprints/PMS2.STEP"
 			(offset
 				(xyz -134.7 81.7 0)
 			)
@@ -160895,15 +160895,15 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/lib/5040500691.stp"
+		(model "${KIPRJMOD}/project-footprints/504050-0691.stp"
 			(offset
-				(xyz 3.75 -5.35 0)
+				(xyz 0 -2.1 1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)
