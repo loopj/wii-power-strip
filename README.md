@@ -15,7 +15,7 @@
 - Supplies power to the 1V, 1.15V, 1.8V, and 3.3V points
 - Power connector allows for modular builds without soldering/desoldering wires
 - Adds pads for the relocation of capacitors (C5, C189, C200) typically removed on more aggressive trims
-- Pad for an optional thermistor, for compatibility with [4Layer Technologies RVL-PMS](https://4layertech.com/collections/modular-line/products/rvl-pms-2)
+- Pad for an optional thermistor, for compatibility with [4Layer Technologies RVL-PMS](https://4layertech.com/products/rvl-pms-2)
 - Fits entirely within the outline of an Omega trim
 - Fits under heatplates/heatsinks
 
@@ -38,16 +38,24 @@
 - Solder the connector and any rescued capacitors to the board by hand or using a hot plate
 - Place board on the Wii motherboard, it should self-align
 - Solder the pads on the edge of the board to the Wii motherboard
-    - 1V0 to the top of C143
-    - 1V15 to the left of C17
-    - 1V8 to the via array at the top left. You may wish to scratch away some solder mask to have more copper to solder to.
-    - 3V3 to the top of C128
-    - GND to the bottom of C180 and C143
+  - 1V0 to the top of C143
+  - 1V15 to the left of C17
+  - 1V8 to the via array at the top left. You may wish to scratch away some solder mask to have more copper to solder to.
+  - 3V3 to the top of C128
+  - GND to the bottom of C180 and C143
 - Use plenty of solder and flux!
 
 ## C189 height
 
 Some motherboard revisions have a very tall (~2.9mm) C189 capacitor, which can interfere with heatplates if you are relocating it. If you have one of these boards, you may wish to consider purchasing a lower profile capacitor. As long as it is a 220uF, 6.3V+, 2917 or 2312 SMD package capacitor it should work fine. The Kyocera AVX NOJY227M006RWJ is a low profile version of the original cap used on the Wii. The TAJX227K006RNJ or TAJY227K006RNJ should also both work.
+
+## RVL-PMS Companion Board
+
+If you want to use Power Strip with the 4Layer Technologies [RVL-PMS-2](https://4layertech.com/products/rvl-pms-2), or [RVL-PMS-Lite](https://4layertech.com/products/pms2-lite) boards, [Y2K](https://github.com/y2k-x) has kindly designed a carrier board called the *Power Strip PMS Companion*, which is included in this repository for convenience.
+
+You can read more about it in the [pms-companion](pms-companion) directory.
+
+![Power Strip PMS Companion](pms-companion/images/render-front.png)
 
 ## License
 
