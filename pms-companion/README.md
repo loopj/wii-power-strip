@@ -1,6 +1,6 @@
 # Power Strip PMS Companion
 
-A carrier board for the 4Layer Technologies [RVL-PMS-2](https://4layertech.com/products/rvl-pms-2), or [RVL-PMS-Lite](https://4layertech.com/products/pms2-lite) boards which adds a pico-lock connector for the Wii Power Strip.
+A carrier board for the 4Layer Technologies [RVL-PMS-2](https://4layertech.com/products/rvl-pms-2), or [RVL-PMS-Lite](https://4layertech.com/products/pms2-lite) boards which adds a pico-lock connector for the Wii Power Strip. Designed by [Y2K](https://github.com/y2k-x).
 
 ![Power Strip PMS Companion front](images/render-front.png)
 
