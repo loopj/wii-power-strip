@@ -51,11 +51,11 @@ Some motherboard revisions have a very tall (~2.9mm) C189 capacitor, which can i
 
 ## RVL-PMS Companion Board
 
-If you want to use Power Strip with the 4Layer Technologies [RVL-PMS-2](https://4layertech.com/products/rvl-pms-2), or [RVL-PMS-Lite](https://4layertech.com/products/pms2-lite) boards, Y2K has designed a carrier board called the *Power Strip PMS Companion*.
+If you want to use Power Strip with the 4Layer Technologies [RVL-PMS-2](https://4layertech.com/products/rvl-pms-2), or [RVL-PMS-Lite](https://4layertech.com/products/pms2-lite) boards, [Y2K](https://twitter.com/y2k_x38) has kindly designed a carrier board called the *Power Strip PMS Companion*, which is included in this repository for convenience.
+
+You can read more about it in the [pms-companion](pms-companion) directory.
 
 ![Power Strip PMS Companion](pms-companion/images/render-front.png)
-
-The PMS Companion is included in this repository for convenience, you can read more about it in the [pms-companion](pms-companion) directory.
 
 ## License
 
