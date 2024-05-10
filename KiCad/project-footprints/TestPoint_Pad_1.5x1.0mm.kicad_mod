@@ -1,17 +1,80 @@
-(footprint "TestPoint_Pad_1.5x1.0mm" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "SMD rectangular pad as test Point, square 4.0mm side length")
-  (tags "test point SMD pad rectangle square")
-  (property "Sheetfile" "wii-power-hat.kicad_sch")
-  (property "Sheetname" "")
-  (attr exclude_from_pos_files)
-  (fp_text reference "TP1" (at -0.078293 -1.547364) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 1e5b4e41-7d23-4a67-9905-cc478815ba8c)
-  )
-  (fp_text value "3V3" (at 0 3.1) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 64c948ad-fe4f-4f52-981a-b8f07be1b929)
-  )
-  (pad "1" smd rect (at 0 0) (size 1.5 1) (layers "F.Cu" "F.Mask") (tstamp 6d97de9e-9b15-475c-8a8e-0077943afb24))
+(footprint "TestPoint_Pad_1.5x1.0mm"
+	(version 20240225)
+	(generator "pcbnew")
+	(generator_version "8.99")
+	(layer "F.Cu")
+	(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+	(tags "test point SMD pad rectangle square")
+	(property "Reference" "TP1"
+		(at -0.078293 -1.547364 0)
+		(layer "F.SilkS")
+		(uuid "1e5b4e41-7d23-4a67-9905-cc478815ba8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3V3"
+		(at 0 3.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64c948ad-fe4f-4f52-981a-b8f07be1b929")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "TestPoint_Pad_1.5x1.0mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b017f115-9b92-448a-9e37-3d469f28b59b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fada254-f338-4cdf-ae0c-cbc522c22f1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4168f32-dcf3-420d-b041-429136f6fd16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.5 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6d97de9e-9b15-475c-8a8e-0077943afb24")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.5 1)
+		(layers "B.Cu" "B.Mask")
+		(uuid "c7d8df1f-9af7-409b-8f8e-3e1edac26680")
+	)
 )

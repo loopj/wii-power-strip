@@ -1,7 +1,7 @@
 (footprint "504050-0691"
-	(version 20240108)
+	(version 20240225)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "8.99")
 	(layer "F.Cu")
 	(descr "504050-0691_1")
 	(tags "Connector")
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "504050-0691"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -213,13 +216,13 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "8723dda0-f7c7-4f4a-9455-d2c0e4529351")
 	)
-	(pad "7" smd rect
+	(pad "MP" smd rect
 		(at -6.355 -5.2)
 		(size 1.25 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "6a0d131d-21c3-4b03-8d3d-ed86ba1074ed")
 	)
-	(pad "8" smd rect
+	(pad "MP" smd rect
 		(at 6.355 -5.2)
 		(size 1.25 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
